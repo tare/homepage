@@ -1,0 +1,37 @@
+body {
+  background-color: #fffbd0;
+}
+
+.covers {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+}
+
+.cover {
+  margin-bottom: 1%;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.link {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.link:hover {
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+a {
+  color: #ff9900;
+}
+a:hover {
+  color: #cc6600;
+}

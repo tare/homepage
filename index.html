@@ -1,46 +1,660 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-  <!-- Basic Page Needs
+  <head>
+    <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Your page title here :)</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8" />
+    <title>Tarmo Äijö</title>
+    <meta name="description" content="Personal web page of Tarmo Äijö" />
+    <meta
+      name="keywords"
+      content="Tarmo Äijö, Tarmo Aijo, data scientist, bioinformatics, bioinformatician, bayes, bayesian, stan, statistical inference, bayesian modeling, bayesian inference, computational biology, NumPyro, JAX, PyMC, New York, consultant, consulting"
+    />
+    <meta name="author" content="Tarmo Äijö" />
 
-  <!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- FONT
+    <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-  <!-- CSS
+    <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
 
-  <!-- Favicon
+    <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
 
-</head>
-<body>
-
-  <!-- Primary Page Layout
+    <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-64012116-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </head>
+  <body>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container" id="Contact">
+      <div class="row">
+        <div class="seven columns" style="margin-top: 5%; margin-bottom: 5%">
+          <h3>
+            Hi, I'm Tarmo Äijö [<a href="http://www.forvo.com/word/tarmo/"
+              >'t̪ɑrmo̞</a
+            >
+            <a href="http://www.forvo.com/word/%C3%A4ij%C3%B6/">'æijø</a>]
+          </h3>
+          <p>
+            I'm a data scientist based in New York City possessing a strong
+            foundation in statistical modeling, machine learning, and data
+            analysis. I've a proven track record of success in healthcare
+            informatics and computational biology.
+          </p>
+          <p></p>
+          <h5>Consulting</h5>
+          <ul>
+            <li>
+              <b>Bayesian Inference & Probabilistic Modeling:</b> Develop
+              sophisticated models for complex data, providing robust and
+              insightful analyses.
+            </li>
+            <li>
+              <b>Data-Driven Solutions</b>: Translate complex statistical
+              concepts into actionable insights for businesses across various
+              industries.
+            </li>
+            <li>
+              <b>Expert Consulting</b>: Partner with clients to address their
+              unique challenges and achieve impactful results through
+              data-driven strategies.
+            </li>
+          </ul>
+          <h5>Contact</h5>
+          <ul>
+            <li>
+              <script>
+                foo = "tarmo.aijo";
+                foo = foo + "@";
+                foo = foo + "gmail.com";
+                document.write('<a href="mailto:' + foo + '">' + foo + "</a>");
+              </script>
+            </li>
+          </ul>
+          <div class="images">
+            <a href="https://fi.linkedin.com/pub/tarmo-äijö/24/618/4"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="32"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3M447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2c-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3c94 0 111.28 61.9 111.28 142.3V448z"
+                /></svg
+            ></a>
+            <a href="https://twitter.com/TarmoAijo"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M389.2 48h70.6L305.6 224.2L487 464H345L233.7 318.6L106.5 464H35.8l164.9-188.5L26.8 48h145.6l100.5 132.9zm-24.8 373.8h39.1L151.1 88h-42z"
+                /></svg
+            ></a>
+            <a href="https://bsky.app/profile/tarmo.aijo.fi"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M111.8 62.2C170.2 105.9 233 194.7 256 242.4c23-47.6 85.8-136.4 144.2-180.2c42.1-31.6 110.3-56 110.3 21.8c0 15.5-8.9 130.5-14.1 149.2c-18.2 64.8-84.4 81.4-143.3 71.3C456 322 482.2 380 425.6 438c-107.4 110.2-154.3-27.6-166.3-62.9c-1.7-4.9-2.6-7.8-3.3-7.8s-1.6 3-3.3 7.8c-12 35.3-59 173.1-166.3 62.9c-56.5-58-30.4-116 72.5-133.5C100 314.6 33.8 298 15.7 233.1C10.4 214.4 1.5 99.4 1.5 83.9c0-77.8 68.2-53.4 110.3-21.8z"
+                /></svg
+            ></a>
+            <a
+              href="https://scholar.google.com/citations?user=pTdN8SQAAAAJ&hl=en"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M390.9 298.5s0 .1.1.1c9.2 19.4 14.4 41.1 14.4 64C405.3 445.1 338.5 512 256 512s-149.3-66.9-149.3-149.3c0-22.9 5.2-44.6 14.4-64c1.7-3.6 3.6-7.2 5.6-10.7q6.6-11.4 15-21.3c27.4-32.6 68.5-53.3 114.4-53.3c33.6 0 64.6 11.1 89.6 29.9c9.1 6.9 17.4 14.7 24.8 23.5c5.6 6.6 10.6 13.8 15 21.3c2 3.4 3.8 7 5.5 10.5zm26.4-18.8c-30.1-58.4-91-98.4-161.3-98.4s-131.2 40-161.3 98.4L0 202.7L256 0l256 202.7l-94.7 77.1z"
+                /></svg
+            ></a>
+            <a href="https://github.com/tare"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="31"
+                height="32"
+                viewBox="0 0 496 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6c-3.3.3-5.6-1.3-5.6-3.6c0-2 2.3-3.6 5.2-3.6c3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9c2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9c.3 2 2.9 3.3 5.9 2.6c2.9-.7 4.9-2.6 4.6-4.6c-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2c12.8 2.3 17.3-5.6 17.3-12.1c0-6.2-.3-40.4-.3-61.4c0 0-70 15-84.7-29.8c0 0-11.4-29.1-27.8-36.6c0 0-22.9-15.7 1.6-15.4c0 0 24.9 2 38.6 25.8c21.9 38.6 58.6 27.5 72.9 20.9c2.3-16 8.8-27.1 16-33.7c-55.9-6.2-112.3-14.3-112.3-110.5c0-27.5 7.6-41.3 23.6-58.9c-2.6-6.5-11.1-33.3 2.6-67.9c20.9-6.5 69 27 69 27c20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27c13.7 34.7 5.2 61.4 2.6 67.9c16 17.7 25.8 31.5 25.8 58.9c0 96.5-58.9 104.2-114.8 110.5c9.2 7.9 17 22.9 17 46.4c0 33.7-.3 75.4-.3 83.6c0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252C496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2c1.6 1.6 3.9 2.3 5.2 1c1.3-1 1-3.3-.7-5.2c-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9c1.6 1 3.6.7 4.3-.7c.7-1.3-.3-2.9-2.3-3.9c-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2c2.3 2.3 5.2 2.6 6.5 1c1.3-1.3.7-4.3-1.3-6.2c-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2c-1.4-2.3-4-3.3-5.6-2"
+                /></svg
+            ></a>
+            <a href="https://www.strava.com/athletes/tarmoaijo"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="32"
+                viewBox="0 0 384 512"
+              >
+                <path
+                  fill="currentColor"
+                  d="M158.4 0L7 292h89.2l62.2-116.1L220.1 292h88.5zm150.2 292l-43.9 88.2l-44.6-88.2h-67.6l112.2 220l111.5-220z"
+                /></svg
+            ></a>
+          </div>
+        </div>
+        <div
+          class="offset-by-one two columns"
+          style="margin-top: 5%; margin-bottom: 5%"
+        >
+          <div><img src="images/tarmo3.png" alt="Photo of Tarmo Äijö" /></div>
+        </div>
       </div>
     </div>
-  </div>
 
-<!-- End Document
+    <div class="container" id="Publications">
+      <div class="row">
+        <div class="twelve columns" style="margin-top: 5%; margin-bottom: 5%">
+          <h4>Publications</h4>
+          <div class="covers">
+            <a href="http://dx.doi.org/10.1126/science.aav9776"
+              ><img
+                class="link cover"
+                src="images/F1.medium.gif"
+                width="173"
+                height="220"
+                alt="Spatiotemporal dynamics of molecular pathology in amyotrophic lateral sclerosis."
+            /></a>
+            <a href="http://dx.doi.org/10.1126/science.aav5728"
+              ><img
+                class="link cover"
+                src="images/F1.medium_2.gif"
+                width="173"
+                height="220"
+                alt="Migratory DCs activate TGF-β to precondition naïve CD8<sup>+</sup> T cells for tissue-resident memory fate."
+            /></a>
+            <a href="http://dx.doi.org/10.1016/j.immuni.2015.01.006"
+              ><img
+                class="link cover"
+                src="images/cover.tif.jpg"
+                width="169"
+                height="220"
+                alt="The transcription factor NFAT promotes exhaustion of activated CD8⁺ T cells."
+            /></a>
+            <a href="https://doi.org/10.1093/bioinformatics/btx549"
+              ><img
+                class="link cover"
+                src="images/bioinfo_34_3cover.png"
+                width="170"
+                height="220"
+                alt="Temporal probabilistic modeling of bacterial compositions derived from 16S rRNA sequencing."
+            /></a>
+            <a href="http://dx.doi.org/10.1073/pnas.1412327111"
+              ><img
+                class="link cover"
+                src="images/32.cover-source.jpg"
+                style="display: inline-block"
+                width="164"
+                height="220"
+                alt="Dissecting the dynamic changes of 5-hydroxymethylcytosine in T-cell development and differentiation."
+            /></a>
+            <a href="http://dx.doi.org/10.1186/s13059-016-0911-6"
+              ><img
+                class="link cover"
+                src="images/12.jpg"
+                width="155"
+                height="220"
+                alt="A probabilistic generative model for quantification of DNA modifications enables analysis of demethylation pathways."
+            /></a>
+            <a href="http://dx.doi.org/10.1038/s41592-019-0548-y"
+              ><img
+                class="link cover"
+                src="images/16_10.png"
+                width="165"
+                height="220"
+                alt="High-definition spatial transcriptomics for in situ tissue profiling."
+            /></a>
+            <a href="http://dx.doi.org/10.1084/jem.20151438"
+              ><img
+                class="link"
+                src="images/m_jem_213_3_cover.png"
+                width="170"
+                height="220"
+                alt="Control of Foxp3 stability through modulation of TET activity."
+            /></a>
+            <a href="http://dx.doi.org/10.1038/nature12052"
+              ><img
+                class="link cover"
+                src="images/nature_497_7447.jpg"
+                width="171"
+                height="220"
+                alt="Modulation of TET2 expression and 
+5-methylcytosine oxidation by the CXXC domain protein IDAX."
+            /></a>
+            <a href="http://dx.doi.org/10.1038/ni.3755"
+              ><img
+                class="link cover"
+                src="images/18_7.png"
+                width="165"
+                height="220"
+                alt="The microRNA miR-31 inhibits CD8<sup>+</sup> T cell function in chronic viral infection."
+            /></a>
+          </div>
+          <h5>Peer-reviewed journal articles</h5>
+          <ol reversed>
+            <li>
+              Gioulbasani M, Äijö T, Liu S, Montgomery SA, Montgomery ND,
+              Corcoran D, Tsagaratou A (2024)
+              <a href="https://dx.doi.org/10.1038/s42003-024-07312-0"
+                >Concomitant loss of TET2 and TET3 results in T cell expansion
+                and genomic instability in mice.</a
+              >
+              <em>Commun Biol</em> 7(1):1606
+            </li>
+            <li>
+              Gioulbasani M, Äijö T, Valenzuela JE, Bettes JB, Tsagaratou A.
+              (2024)
+              <a href="http://dx.doi.org/10.3389/fimmu.2024.1440044"
+                >TET proteins regulate Drosha expression and impact microRNAs in
+                iNKT cells.</a
+              >
+              <em>Front Immunol</em> 15: 1440044
+            </li>
+            <li>
+              Theofilatos D, Ho T, Waitt G, Äijö T, Schiapparelli LM, Soderblom
+              EJ, Tsagaratou A (2024)
+              <a href="https://dx.doi.org/10.1016/j.isci.2024.109782"
+                >Deciphering the TET3 interactome in primary thymic developing
+                T cells.</a
+              >
+              <em>iScience</em> 27(5):109782
+            </li>
+            <li>
+              Äijö T, Elgort D, Becker M, Herzog R, Brown RKJ, Odry BL, Vianu R
+              (2024)
+              <a href="https://dx.doi.org/10.1007/s10278-024-00971-9"
+                >Improving the Reliability of Peer Review Without a Gold
+                Standard.</a
+              >
+              <em>J Imaging Inform Med</em> 37(2):489-503
+            </li>
+            <li>
+              Theofilatos D, Äijö T, Tsagaratou A. (2022)
+              <a href="http://dx.doi.org/10.1016/j.xpro.2022.101839"
+                >Protocol to isolate mature thymic T cell subsets using
+                fluorescence-activated cell sorting for assessing gene
+                expression by RNA-seq and transcription factor binding across
+                the genome by CUT&amp;RUN.</a
+              >
+              <em>STAR Protoc</em> 3: 101839
+            </li>
+            <li>
+              Äijö T, Theofilatos D, Cheng M, Smith MD, Xiong Y, Baldwin AS,
+              Tsagaratou A. (2022)
+              <a href="http://dx.doi.org/10.3389/fimmu.2022.940995"
+                >TET proteins regulate T cell and iNKT cell lineage
+                specification in a TET2 catalytic dependent manner.</a
+              >
+              <em>Front Immunol</em> 13: 940995
+            </li>
+            <li>
+              Mani V, Bromley SK, Äijö T, Mora-Buch R, Carrizosa E, Warner RD,
+              Hamze M, Sen DR, Chasse AY, Lorant A, Griffith JW, Rahimi RA,
+              McEntee CP, Jeffrey KL, Marangoni F, Travis MA, Lacy-Hulbert A,
+              Luster AD, Mempel TR. (2019)
+              <a href="http://dx.doi.org/10.1126/science.aav5728"
+                >Migratory DCs activate TGF-β to precondition naïve CD8<sup
+                  >+</sup
+                >
+                T cells for tissue-resident memory fate.</a
+              >
+              <em>Science</em> 366:
+            </li>
+            <li>
+              Vickovic S, Eraslan G, Salmén F, Klughammer J, Stenbeck L,
+              Schapiro D, Äijö T, Bonneau R, Bergenstråhle L, Navarro JF, Gould
+              J, Griffin GK, Borg Å, Ronaghi M, Frisén J, Lundeberg J, Regev A,
+              Ståhl PL. (2019)
+              <a href="http://dx.doi.org/10.1038/s41592-019-0548-y"
+                >High-definition spatial transcriptomics for in situ tissue
+                profiling.</a
+              >
+              <em>Nat Methods</em> 16: 987-990
+            </li>
+            <li>
+              Maniatis S, Äijö T, Vickovic S, Braine C, Kang K, Mollbrink A,
+              Fagegaltier D, Andrusivová Ž, Saarenpää S, Saiz-Castro G, Cuevas
+              M, Watters A, Lundeberg J, Bonneau R, Phatnani H. (2019)
+              <a href="http://dx.doi.org/10.1126/science.aav9776"
+                >Spatiotemporal dynamics of molecular pathology in amyotrophic
+                lateral sclerosis.</a
+              >
+              <em>Science</em> 364: 89-93
+            </li>
+            <li>
+              Marangoni F, Zhang R, Mani V, Thelen M, Ali Akbar NJ, Warner RD,
+              Äijö T, Zappulli V, Martinez GJ, Turka LA, Mempel TR. (2018)
+              <a href="http://dx.doi.org/10.4049/jimmunol.1701220"
+                >Tumor Tolerance-Promoting Function of Regulatory T Cells Is
+                Optimized by CD28, but Strictly Dependent on Calcineurin.</a
+              >
+              <em>J Immunol</em> 200: 3647-3661
+            </li>
+            <li>
+              Äijö T, Müller CL, Bonneau R. (2018)
+              <a href="https://doi.org/10.1093/bioinformatics/btx549"
+                >Temporal probabilistic modeling of bacterial compositions
+                derived from 16S rRNA sequencing.</a
+              >
+              <em>Bioinformatics</em> 34: 372-380
+            </li>
+            <li>
+              Tripathi SK, Chen Z, Larjo A, Kanduri K, Nousiainen K, Äijö T,
+              Ricaño-Ponce I, Hrdlickova B, Tuomela S, Laajala E, Salo V, Kumar
+              V, Wijmenga C, Lähdesmäki H, Lahesmaa R. (2017)
+              <a href="http://dx.doi.org/10.1016/j.celrep.2017.05.013"
+                >Genome-wide Analysis of STAT3-Mediated Transcription during
+                Early Human Th17 Cell Differentiation.</a
+              >
+              <em>Cell Rep</em> 19: 1888-1901
+            </li>
+            <li>
+              Moffett HF, Cartwright ANR, Kim HJ, Godec J, Pyrdol J, Äijö T,
+              Martinez GJ, Rao A, Lu J, Golub TR, Cantor H, Sharpe AH, Novina
+              CD, Wucherpfennig KW. (2017)
+              <a href="http://dx.doi.org/10.1038/ni.3755"
+                >The microRNA miR-31 inhibits CD8<sup>+</sup> T cell function in
+                chronic viral infection.</a
+              >
+              <em>Nat Immunol</em> 18: 791-799
+            </li>
+            <li>
+              Äijö T, Bonneau R. (2016)
+              <a href="http://dx.doi.org/10.1159/000446614"
+                >Biophysically motivated regulatory network inference: progress
+                and prospects.</a
+              >
+              <em>Human Heredity</em> 81: 62-77
+            </li>
+            <li>
+              Äijö T, Yue X, Rao A, Lähdesmäki H. (2016)
+              <a href="http://dx.doi.org/10.1093/bioinformatics/btw468"
+                >LuxGLM: a probabilistic covariate model for quantification of
+                DNA methylation modifications with complex experimental
+                designs.</a
+              >
+              <em>Bioinformatics</em> 32: i511-i519
+            </li>
+            <li>
+              Äijö T, Huang Y, Mannerström H, Chavez L, Tsagaratou A, Rao A,
+              Lähdesmäki H. (2016)
+              <a href="http://dx.doi.org/10.1186/s13059-016-0911-6"
+                >A probabilistic generative model for quantification of DNA
+                modifications enables analysis of demethylation pathways.</a
+              >
+              <em>Genome Biol</em> 17: 49
+            </li>
+            <li>
+              Tuomela S, Rautio S, Ahlfors H, Öling V, Salo V, Ullah U, Chen Z,
+              Hämälistö S, Tripathi SK, Äijö T, Rasool O, Soueidan H, Wessels L,
+              Stockinger B, Lähdesmäki H, Lahesmaa R. (2016)
+              <a href="http://dx.doi.org/10.18632/oncotarget.7963"
+                >Comparative analysis of human and mouse transcriptomes of Th17
+                cell priming.</a
+              >
+              <em>Oncotarget</em> 7: 13416-28
+            </li>
+            <li>
+              Yue X, Trifari S, Äijö T, Tsagaratou A, Pastor WA, Zepeda-Martínez
+              JA, Lio CW, Li X, Huang Y, Vijayanand P, Lähdesmäki H, Rao A.
+              (2016)
+              <a href="http://dx.doi.org/10.1084/jem.20151438"
+                >Control of Foxp3 stability through modulation of TET
+                activity.</a
+              >
+              <em>J Exp Med</em> 213: 377-97
+            </li>
+            <li>
+              Martinez GJ, Pereira RM, Äijö T, Kim EY, Marangoni F, Pipkin ME,
+              Togher S, Heissmeyer V, Zhang YC, Crotty S, Lamperti ED, Ansel KM,
+              Mempel TR, Lähdesmäki H, Hogan PG, Rao A. (2015)
+              <a href="http://dx.doi.org/10.1016/j.immuni.2015.01.006"
+                >The transcription factor NFAT promotes exhaustion of activated
+                CD8⁺ T cells.</a
+              >
+              <em>Immunity</em> 42: 265-78
+            </li>
+            <li>
+              Tsagaratou A, Äijö T, Lio CW, Yue X, Huang Y, Jacobsen SE,
+              Lähdesmäki H, Rao A. (2014)
+              <a href="http://dx.doi.org/10.1073/pnas.1412327111"
+                >Dissecting the dynamic changes of 5-hydroxymethylcytosine in
+                T-cell development and differentiation.</a
+              >
+              <em>Proc Natl Acad Sci U S A</em> 111: E3306-15
+            </li>
+            <li>
+              Äijö T, Butty V, Chen Z, Salo V, Tripathi S, Burge CB, Lahesmaa R,
+              Lähdesmäki H. (2014)
+              <a href="http://dx.doi.org/10.1093/bioinformatics/btu274"
+                >Methods for time series analysis of RNA-seq data with
+                application to human Th17 cell differentiation.</a
+              >
+              <em>Bioinformatics</em> 30: i113-20
+            </li>
+            <li>
+              Trifari S, Pipkin ME, Bandukwala HS, Äijö T, Bassein J, Chen R,
+              Martinez GJ, Rao A. (2013)
+              <a href="http://dx.doi.org/10.1073/pnas.1317191110"
+                >MicroRNA-directed program of cytotoxic CD8+ T-cell
+                differentiation.</a
+              >
+              <em>Proc Natl Acad Sci U S A</em> 110: 18608-13
+            </li>
+            <li>
+              Ko M, An J, Bandukwala HS, Chavez L, Äijö T, Pastor WA, Segal MF,
+              Li H, Koh KP, Lähdesmäki H, Hogan PG, Aravind L, Rao A. (2013)
+              <a href="http://dx.doi.org/10.1038/nature12052"
+                >Modulation of TET2 expression and 5-methylcytosine oxidation by
+                the CXXC domain protein IDAX.</a
+              >
+              <em>Nature</em> 497: 122-6
+            </li>
+            <li>
+              Äijö T, Granberg K, Lähdesmäki H. (2013)
+              <a href="http://dx.doi.org/10.1093/bioinformatics/btt130"
+                >Sorad: a systems biology approach to predict and modulate
+                dynamic signaling pathway response from phosphoproteome
+                time-course measurements.</a
+              >
+              <em>Bioinformatics</em> 29: 1283-91
+            </li>
+            <li>
+              Äijö T, Edelman SM, Lönnberg T, Larjo A, Kallionpää H, Tuomela S,
+              Engström E, Lahesmaa R, Lähdesmäki H. (2012)
+              <a href="http://dx.doi.org/10.1186/1471-2164-13-572"
+                >An integrative computational systems biology approach
+                identifies differentially regulated dynamic transcriptome
+                signatures which drive the initiation of human T helper cell
+                differentiation.</a
+              >
+              <em>BMC Genomics</em> 13: 572
+            </li>
+            <li>
+              Benson MJ, Äijö T, Chang X, Gagnon J, Pape UJ, Anantharaman V,
+              Aravind L, Pursiheimo JP, Oberdoerffer S, Liu XS, Lahesmaa R,
+              Lähdesmäki H, Rao A. (2012)
+              <a href="http://dx.doi.org/10.1073/pnas.1214414109"
+                >Heterogeneous nuclear ribonucleoprotein L-like (hnRNPLL) and
+                elongation factor, RNA polymerase II, 2 (ELL2) are regulators of
+                mRNA processing in plasma cells.</a
+              >
+              <em>Proc Natl Acad Sci U S A</em> 109: 16252-7
+            </li>
+            <li>
+              Tuomela S, Salo V, Tripathi SK, Chen Z, Laurila K, Gupta B, Äijö
+              T, Oikari L, Stockinger B, Lähdesmäki H, Lahesmaa R. (2012)
+              <a href="http://dx.doi.org/10.1182/blood-2012-01-407528"
+                >Identification of early gene expression changes during human
+                Th17 cell differentiation.</a
+              >
+              <em>Blood</em> 119: e151-60
+            </li>
+            <li>
+              Ruusuvuori P, Äijö T, Chowdhury S, Garmendia-Torres C, Selinummi
+              J, Birbaumer M, Dudley AM, Pelkmans L, Yli-Harja O. (2010)
+              <a href="http://dx.doi.org/10.1186/1471-2105-11-248"
+                >Evaluation of methods for detection of fluorescence labeled
+                subcellular objects in microscope images.</a
+              >
+              <em>BMC Bioinformatics</em> 11: 248
+            </li>
+            <li>
+              Äijö T, Lähdesmäki H. (2009)
+              <a href="http://dx.doi.org/10.1093/bioinformatics/btp511"
+                >Learning gene regulatory networks from gene expression
+                measurements using non-parametric molecular kinetics.</a
+              >
+              <em>Bioinformatics</em> 25: 2937-44
+            </li>
+          </ol>
+          <h5>Book chapters</h5>
+          <ol reversed>
+            <li>
+              Äijö T, Bonneau R, Lähdesmäki H. (2018)
+              <a href="http://dx.doi.org/10.1007/978-1-4939-8561-6_4"
+                >Generative Models for Quantification of DNA Modifications.</a
+              >
+              <em>Methods Mol Biol</em> 1807: 37-50
+            </li>
+            <li>
+              Monticelli S, Äijö T, Trifari S. (2017)
+              <a href="http://dx.doi.org/10.1007/978-1-4939-6548-9_13"
+                >Approaches to Detect microRNA Expression in T Cell Subsets and
+                T Cell Differentiation.</a
+              >
+              <em>Methods Mol Biol</em> 1514: 153-172
+            </li>
+          </ol>
+          <h5>Preprints</h5>
+          <ol reversed>
+            <li>
+              Daly AC, Cambuli F, Äijö T, Lötstedt B, Marjanovic N, Kuksenko O,
+              Smith-Erb M, Fernandez S, Domovic D, Van Wittenberghe N,
+              Drokhlyansky E, Griffin GK, Phatnani H, Bonneau R, Regev A,
+              Vickovic S (2024)
+              <a href="https://dx.doi.org/10.1101/2024.04.22.590125"
+                >Tissue and cellular spatiotemporal dynamics in colon aging.</a
+              >
+              <em>bioRxiv</em> ():
+            </li>
+            <li>
+              Rasmussen A, Äijö T, Gabitto MI, Carriero N, Sanjana N, Skok J,
+              Bonneau R. (2020)
+              <a href="https://doi.org/10.1101/2020.08.13.247007"
+                >CRISPR-Decryptr reveals <i>cis</i>-regulatory elements from
+                nonconding perturbation screens.</a
+              >
+              <em>bioRxiv</em> 2020.08.13.247007
+            </li>
+            <li>
+              Äijö T, Maniatis S, Vickovic S, Kang K, Cuevas M, Braine C,
+              Phatnani H, Lundeberg J, Bonneau R. (2019)
+              <a href="https://doi.org/10.1101/757096"
+                >Splotch: Robust estimation of aligned spatial temporal gene
+                expression data.</a
+              >
+              <em>bioRxiv</em> 757096
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <p style="margin-top: 1rem; margin-bottom: 1rem">
+              <em>This page was last modified on 2025/03/01</em>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
+  </body>
 </html>
