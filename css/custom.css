@@ -19,6 +19,11 @@ body {
   gap: 10px;
 }
 
+.photo {
+  max-width: 100%;
+  height: auto;
+}
+
 .link {
   opacity: 1;
   filter: alpha(opacity=100);
